@@ -25,7 +25,6 @@ export default function Closing() {
             <p className="text-xl text-accent">One app, one save at a time.</p>
           </div>
 
-          {/* Logo watermark */}
           <div className="mt-16 flex justify-center opacity-30">
             <Image
               width={100}

@@ -5,7 +5,6 @@ export default function Hero() {
     <section className="relative bg-foreground text-white min-h-screen flex items-center justify-center px-6 py-20">
       <div className="max-w-4xl mx-auto text-center">
         <div className="animate-fade-in-up">
-          {/* Logo */}
           <div className="mb-8 flex justify-center">
             <Image
               width={100}
