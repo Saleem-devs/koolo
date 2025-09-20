@@ -1,12 +1,6 @@
 import type React from "react";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({
-  variable: "--font-inter-sans",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Koōlo - Saving for the Life You Want",
@@ -22,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} antialiased`}>
-      <body className="font-sans">{children}</body>
+    <html lang="en" className="antialiased">
+      <body className="font-iowan">{children}</body>
     </html>
   );
 }
