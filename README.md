@@ -15,4 +15,4 @@ A compelling single-page website that tells the Koōlo brand story - from proble
 
 ## Screenshot
 
-![Koōlo Story Page](public/full_page.png)
+![Koōlo Story Page](public/images/full-page.png)
