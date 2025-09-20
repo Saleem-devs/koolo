@@ -11,16 +11,17 @@ export default function Problem() {
             </h2>
             <div className="space-y-4 text-paragraph">
               <p className="text-base md:text-lg leading-relaxed">
-                Traditional savings methods are often complicated, intimidating,
-                and don't adapt to our modern lifestyle. Many people struggle
-                with inconsistent saving habits, lack of financial education,
-                and the overwhelming nature of financial planning.
+                In a world where traditional savings accounts lose value faster
+                than you can fill them, saving for your premium soft life or
+                japa plans feels almost impossible. Today it's urgent 2k,
+                tomorrow it's inflation. Either way, money keeps slipping away,
+                leaving you little room for building the future you want. The
+                future you deserve.
               </p>
               <p className="text-base md:text-lg leading-relaxed">
-                Inflation erodes the value of money over time, making it even
-                more challenging to build meaningful wealth. The complexity of
-                financial products and services creates barriers that prevent
-                people from taking control of their financial future.
+                But saving was never meant to be this complicated. Breaking
+                fees, rigid systems and endless complicated processes that leave
+                you unmotivated to grow your savings to meet your big dreams.
               </p>
               <p className="text-base md:text-lg leading-relaxed">
                 <span className="font-semibold">
