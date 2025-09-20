@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "Koōlo",
     images: [
       {
-        url: "/images/logo.png",
+        url: "/images/og.png",
         width: 800,
         height: 600,
         alt: "Koōlo Logo",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: "Koōlo - Saving for the Life You Want",
     description:
       "Smart savings platform protecting your money from inflation while keeping your dreams within reach.",
-    images: ["/images/logo.png"],
+    images: ["/images/og.png"],
   },
 };
 
