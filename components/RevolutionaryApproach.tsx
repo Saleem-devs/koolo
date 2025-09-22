@@ -12,32 +12,29 @@ export default function RevolutionaryApproach() {
         </AnimatedSection>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <AnimatedSection delay={400} direction="up">
-            <RevCard
-              title="Smart Currency Protection"
-              description="Naira down? Your savings do not have to be. Koōlo automatically secures part of your savings by converting to stablecoins. No blockchain stress. Just one app with AI protecting your financial future."
-              icon="/images/currency.svg"
-              image="/images/save-box.png"
-            />
-          </AnimatedSection>
+          <RevCard
+            title="Smart Currency Protection"
+            description="Naira down? Your savings do not have to be. Koōlo automatically secures part of your savings by converting to stablecoins. No blockchain stress. Just one app with AI protecting your financial future."
+            icon="/images/currency.svg"
+            image="/images/save-box.png"
+            animationDelay={400}
+          />
 
-          <AnimatedSection delay={600} direction="up">
-            <RevCard
-              title="Emergency Access With No Fee"
-              description="Life's emergencies can strike anytime. Instead of breaking your savings, Koōlo gives you instant micro-credit from your locked funds. Handle the problem today, keep your goals safe for tomorrow."
-              icon="/images/emergency.svg"
-              image="/images/secure.png"
-            />
-          </AnimatedSection>
+          <RevCard
+            title="Emergency Access With No Fee"
+            description="Life's emergencies can strike anytime. Instead of breaking your savings, Koōlo gives you instant micro-credit from your locked funds. Handle the problem today, keep your goals safe for tomorrow."
+            icon="/images/emergency.svg"
+            image="/images/secure.png"
+            animationDelay={600}
+          />
 
-          <AnimatedSection delay={800} direction="up">
-            <RevCard
-              title="Gamified Growth"
-              description="Who says saving has to be boring? With Koōlo, every milestone becomes a win. Earn badges, unlock achievement NFTs, join group challenges, and track your journey with visuals that turn every naira saved into a victory."
-              icon="/images/growth.svg"
-              image="/images/award.png"
-            />
-          </AnimatedSection>
+          <RevCard
+            title="Gamified Growth"
+            description="Who says saving has to be boring? With Koōlo, every milestone becomes a win. Earn badges, unlock achievement NFTs, join group challenges, and track your journey with visuals that turn every naira saved into a victory."
+            icon="/images/growth.svg"
+            image="/images/award.png"
+            animationDelay={800}
+          />
         </div>
       </div>
     </section>
